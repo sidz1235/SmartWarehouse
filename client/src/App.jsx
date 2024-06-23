@@ -10,7 +10,7 @@ import Warehouse from './components/Warehouse.jsx';
 import { UserProvider } from './UserContext.jsx'
 import axios from "axios";
 
-axios.defaults.baseURL="http://127.0.0.1:5000";
+axios.defaults.baseURL="https://smartwarehouse.onrender.com";
 axios.defaults.withCredentials= true;
 axios.defaults.headers['SameSite'] = 'None';
 
