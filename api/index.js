@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:5173',
+    origin: 'https://smarttrack.onrender.com',
 }));
 app.use(cookieParser());
 app.use(bodyParser.json());
